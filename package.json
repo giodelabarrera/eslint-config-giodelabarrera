@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-giodelabarrera",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,6 +8,11 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.4"
+  },
   "devDependencies": {
     "eslint": "^7.11.0",
     "prettier": "^2.1.2"
